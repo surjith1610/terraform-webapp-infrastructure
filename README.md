@@ -25,6 +25,10 @@ This repository contains **Terraform configuration files** to set up a robust AW
 5. **DNS Management**: Route 53 simplifies domain management with hosted zones.  
 6. **Serverless Email Verification**: Lambda functions and SNS streamline user verification with SendGrid integration.  
 
+## Please check the Web application repository which will be deployed using this reusable Infrastructure code here:
+https://github.com/surjith1610/cloud-webapplication
+## Please check the serverless function repository for the user verification lambda function code here:
+https://github.com/surjith1610/serverless-webapp-function
 ---
 
 ## Prerequisites
