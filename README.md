@@ -35,6 +35,7 @@ https://github.com/surjith1610/serverless-webapp-function
 ## Prerequisites
 
 1. **Terraform** (version >= 1.0)  
+2. **Add the zipped lambda function to the repo
 2. **AWS CLI** with a configured profile for AWS credentials.  
    Export the profile to be used with Terraform:  
    ```bash
