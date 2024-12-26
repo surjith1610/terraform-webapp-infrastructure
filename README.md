@@ -35,6 +35,14 @@ This repository contains **Terraform configuration files** to set up a robust AW
    ```bash
    export AWS_PROFILE="your_profile_name"
 
+## Steps to be followed for resource provisioning
+```bash
+    terraform init
+    terraform plan -var-file="variables.tfvars"
+    terraform apply -var-file="variables.tfvars"
+    terraform destroy -var-file="variables.tfvars"
+```
+
 ## Steps for SSL certificate activation
 ```bash
     sudo openssl genrsa -out private.key 2048
@@ -47,11 +55,3 @@ This repository contains **Terraform configuration files** to set up a robust AW
     --private-key fileb://private_key.pem \
     --certificate-chain fileb://your_certificate_chain.pem \
     --region us-east-1
-
-## Steps to be followed for resource provisioning
-```bash
-    terraform init
-    terraform plan -var-file="variables.tfvars"
-    terraform apply -var-file="variables.tfvars"
-    terraform destroy -var-file="variables.tfvars"
-
